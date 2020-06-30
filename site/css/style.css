@@ -1,0 +1,72 @@
+body {
+    font-family: 'Oxygen';font-size: 22px;
+	background-color:#61122f;
+}
+#header-nav{
+	border-radius:0px;
+	border:0px;
+	background-color:#f3b619;
+}
+#img-logo{
+	padding:10px;
+	width:120px;
+	height:120px;
+	
+}
+#certificate{
+	width:20px;
+	height:20px;
+
+}
+.navbar-brand h1{
+	text-decoration:none;
+	margin:0px;
+	text-shadow:1px 1px 1px  black;
+	font-size:2em;
+	text-transform:uppercase;
+	color:#5e0fce;
+	font-weight:bold;
+	
+}
+.navbar-brand a:hover,a:focus{
+	text-decoration:none;
+	margin:0px;
+	text-shadow:1px 1px 1px 1px black;
+}
+#collapsable-nav{
+	text-align:center;
+	padding:5px;
+	
+}
+#nav-list a{
+	color:#61122f;
+	border-radius:20px;
+}
+#nav-list a:hover{
+	background-color:#efefef;
+	color:black;	
+	
+}
+.navbar-header button.navbar-toogle , .navbar-header .icon-bar{
+	border:1px solid black;
+}
+.navbar-header button.navbar-toogle{
+	clear:both;
+}
+@media(max-width:779px){
+	#img-logo{
+		width:80px;
+		height:80px;
+	}
+	.navbar-brand {
+		
+		padding:5px;
+		font-size:3vw;
+	}
+	.navbar-header button.navbar-toogle{
+		font-size:3vw;
+	}
+	#collapsable-nav a{
+		font-size:3vw	;
+	}
+}
